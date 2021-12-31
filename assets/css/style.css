@@ -1,0 +1,19 @@
+
+:root {
+    --bs-font-sans-serif: sans-serif;
+}
+
+body {
+    background-color: #c3a884;
+    font: 1rem var(--bs-font-sans-serif);
+}
+
+#resume a {
+    color: black;
+    text-decoration: none;
+}
+
+.dim:hover, .dim:focus {
+    opacity: 0.8;
+    transition: opacity .15s ease-in;
+}
