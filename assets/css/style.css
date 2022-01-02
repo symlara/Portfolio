@@ -1,13 +1,12 @@
 
-:root {
-    --bs-font-sans-serif: sans-serif;
-}
 
 body {
     background-color: #c3a884;
-    font: 1rem var(--bs-font-sans-serif);
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
+
+/* about me styles */
 #resume a {
     color: black;
     text-decoration: none;
@@ -17,3 +16,45 @@ body {
     opacity: 0.8;
     transition: opacity .15s ease-in;
 }
+
+#about p {
+    font-size: 18px;
+}
+
+/* work styles */
+
+#work p {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+li {
+    font-size: 18px;
+}
+
+/* button that scrolls to top of page */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    z-index: 99;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
+
