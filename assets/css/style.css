@@ -163,11 +163,27 @@ hr {
         font-size: 18px;
     }
 
+    #futurevu h1 {
+        font-size: 2rem;
+    }
+
     #unity img {
         width: 100%;
     }
 
     #other-projects {
+        font-size: 25px;
+    }
+
+    #new-projects {
+        font-size: 25px;
+    }
+
+    #proficiencies h1 {
+        font-size: 2rem;
+    }
+
+    #contact h1 {
         font-size: 2rem;
     }
 }
