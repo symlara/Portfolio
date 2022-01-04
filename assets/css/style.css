@@ -74,3 +74,100 @@ hr {
 
 
 /* media queries below! */ 
+@media screen and (max-width: 800px) {
+    nav {
+       padding: 2rem;
+       margin-bottom: 2rem;
+    }
+
+    #nav a{
+        font-size: 2rem;
+    }
+
+    #nav-items a {
+        font-size: 20px;
+    }
+
+    #card {
+        width:100%;
+    }
+
+    /* about section */
+    #about {
+        text-align:center;
+    }
+
+    #about h1 {
+        font-size: 2rem;
+    }
+
+    #about p{
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    /*about end */
+
+    h3 {
+        text-align: center;
+    }
+
+   /* images */
+    /* .bg-center {
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width:100%;
+        } */
+
+        /* work section */
+        .bg-black {
+            width: 100%;
+        }
+
+        #work  {
+            align-items: center;
+        }
+
+    #allen h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    .allen-1 {
+        width: 100%;
+    }
+
+    .w-100 {
+        width: 100%;
+    }
+
+    #allen p {
+        text-align:center;
+        font-size: 16px;
+    }
+
+    #technology-items h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #technology-items li {
+        text-align: center;
+    }
+
+    #technologies a {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #unity img {
+        width: 100%;
+    }
+
+    #other-projects {
+        font-size: 2rem;
+    }
+}

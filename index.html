@@ -12,9 +12,9 @@
   <button class="dim" id="myBtn" title="Go to top" href="#">🔝</button>
 
 
-    <nav class="pa3 pa4-ns">
+    <nav class="pa3 pa4-ns" id="nav">
         <a class="link dim black b f1 f-headline-ns tc db mb3 mb4-ns" href="#" title="Home">Aaliyah's Portfolio</a>
-        <div class="tc pb3">
+        <div class="tc pb3" id="nav-items">
           <a class="link dim black f6 f5-ns dib mr3" href="#about" title="About">About</a>
           <a class="link dim black f6 f5-ns dib mr3" href="#work" title="work">Work</a>
           <a class="link dim black f6 f5-ns dib mr3" href="#proficiencies" title="skills">Proficiencies</a>
@@ -22,7 +22,7 @@
         </div>
       </nav>
 
-      <article class="br2 ba dark-gray b--black-10 mv4 w-100 w-50-m w-25-l mw5 center">
+      <article class="br2 ba dark-gray b--black-10 mv4 w-100 w-50-m w-25-l mw5 center" id="card">
         <img src="assets/images/Symlar_Aaliyah_headshot.jpeg" class="db w-100 br2 br--top" alt="Photo of a kitten looking menacing.">
         <div class="pa2 ph3-ns pb3-ns">
           <div class="dt w-100 mt1">
@@ -53,11 +53,9 @@
       <!-- work section -->
       <main id="work">
         <article class="bg-black">
-          <div class="vh-75 bg-center cover">
-            <img src="assets/images/allen-stone.jpg">
-          </div>
           <div class="ph4 ph5-m ph6-l">
-            <div class="pv5 f4 f2-ns measure center">
+            <div class="pv5 f4 f2-ns measure center" id="allen">
+              <img class="allen-1" src="assets/images/allen-stone.jpg" alt="allen-stone">
               <h1 class="fw6 f1 fl w-100 white mt0 mb3">About Allen Stone</h1>
               <p class="db lh-copy white fw1 mv0 f4 f3-m f2-l measure">
                 This app is a quick source to all things Allen Stone, who is a Pop/Soul Musician. It's a source for Al's music, and links to his social media accounts! 
@@ -65,7 +63,7 @@
             <div class="cf mw8 center">
               <div class='fl w-33 w-50-m w-33-l pr2 pr2-l'>
                 <div class="pv6 cover bg-center">
-                  <img src="assets/images/about-allen-screenshot.png">
+                  <img class="w-100" src="assets/images/about-allen-screenshot.png">
                 </div>
               </div>
               <div class='fl w-33 w-50-m w-33-l ph3 pr0-m ph3-l'>
@@ -74,7 +72,7 @@
                 </div>
               </div>
             </div>
-            <div class="measure f3 center mv5 white">
+            <div class="measure f3 center mv5 white" id="technology-items">
               <h1 class="fw6 f3">Technologies</h1>
               <ul>
                 <li>Deezer API</li>
@@ -85,16 +83,16 @@
                 <li>LocalStorage</li>
                 <li>Modals</li>
               </ul>
-              <p>
+              <p id="technologies">
                 <a class="dim white" href="https://github.com/symlara/about-allen-project" target="_blank">Allen Stone Github</a> <br/>
                 <a class="dim white" href="https://symlara.github.io/about-allen-project/" target="_blank">Allen Stone Site</a>
               </p>
             </div>
-            <img src="assets/images/allen-albums.png" class="db w-75"/>
+            <img src="assets/images/allen-albums.png" alt="allen-albums" class="db w-75"/>
             &nbsp;
             <div class="measure f4 f3-ns center mv5 white">
               <div class="aspect-ratio aspect-ratio--16x9 mv5">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/gtybyrXuZRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" src="https://www.youtube.com/embed/gtybyrXuZRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
             &nbsp;
@@ -103,12 +101,10 @@
             
             
             &nbsp; 
-            &nbsp; 
-            &nbsp; 
-            <div class="vh-75 w-50 bg-center">
-              <img src="assets/images/vanderbilt-unity-screenshot.png" alt="vanderbilt unity site">
-            </div>
+           
+          
             <div class="pv5 f4 f2-ns measure center">
+              <img id="unity" src="assets/images/vanderbilt-unity-screenshot.png" alt="vanderbilt unity site">
               <h1 class="fw6 f1 fl w-100 white mt0 mb3">FutureVU</h1>
               <p class="db lh-copy white fw1 mv0 f4 f3-m f2-l measure">
                 This project is an ongoing initiative being completed by Vanderbilt University. There are multiple stakeholders involved in the building/look, and feel of this project one of them primarily being the Digital Stragies team I am a part of.
@@ -138,7 +134,7 @@
         </article>
         <!-- make this section my projects!! -->
         <section class="cf mt5 pv5 bt b--black-05 ph6-l center">
-          <h1 class="tc f5 ttu fw6 tracked mb4">Other Projects</h1>
+          <h1 class="tc f5 ttu fw6 tracked mb4" id="other-projects">Other Projects</h1>
           <a href="https://note-creater.herokuapp.com/notes" target="_blank" class="fl w-third w-25-ns border-box overflow-hidden ba bw2 white" title="note-taker">
             <div class="grow cover bg-center">
               <img src="assets/images/note-taker.png">
@@ -173,7 +169,7 @@
     <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
       <h2>Front-End Proficiencies</h2>
       <p class="f6 lh-copy measure">
-        HTML, CSS, JavaScript, jQuery, Bootstrap, React, Git, Responsive UI
+        HTML, CSS, JavaScript, jQuery, Bootstrap, React, Git, Responsive UI, Canva
       </p>
     </div>
     <div class="fl w-100 w-50-m w-25-l pa3-m pa4-l">
